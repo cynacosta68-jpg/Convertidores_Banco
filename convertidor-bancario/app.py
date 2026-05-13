@@ -17,8 +17,6 @@ import streamlit as st
 from datetime import datetime, date
 
 from convertidores import bbva, credicoop, macro
-from auth import login_required
-login_required()
 
 
 # ══════════════════════════════════════════════════════════════

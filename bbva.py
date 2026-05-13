@@ -17,8 +17,6 @@ Estructura del archivo de SALIDA (cada línea = 250 chars + CRLF):
 import io
 from datetime import datetime
 from openpyxl import load_workbook
-from auth import login_required
-login_required()
 
 
 # ══════════════════════════════════════════════════════════════
